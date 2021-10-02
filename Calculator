@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
-{
+int main() {
     float numOne, numTwo, res;
     int choice;
     do
@@ -20,30 +19,37 @@ int main()
         }
         switch(choice)
         {
+            
             case 1:
                 res = numOne+numTwo;
                 cout<<"\nResult = "<<res;
                 break;
+            
             case 2:
                 res = numOne-numTwo;
                 cout<<"\nResult = "<<res;
                 break;
+            
             case 3:
                 res = numOne*numTwo;
                 cout<<"\nResult = "<<res;
                 break;
+            
             case 4:
                 res = numOne/numTwo;
                 cout<<"\nResult = "<<res;
                 break;
+            
             case 5:
                 return 0;
+            
             default:
                 cout<<"\nWrong Choice!";
                 break;
         }
         cout<<"\n------------------------\n";
-    }while(choice!=5);
+    }
+    while(choice!=5);
     cout<<endl;
     return 0;
 }
