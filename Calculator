@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 int main() {
     float numOne, numTwo, res;
     int choice;
@@ -10,7 +11,7 @@ int main() {
         cout<<"3. Multiplication\n";
         cout<<"4. Division\n";
         cout<<"5. Exit\n\n";
-        cout<<"Enter Your Choice(1-5): ";
+        cout<<"Pick your choice ";
         cin>>choice;
         if(choice>=1 && choice<=4)
         {
@@ -44,7 +45,7 @@ int main() {
                 return 0;
             
             default:
-                cout<<"\nWrong Choice!";
+                cout<<"\nInvalid Choice!";
                 break;
         }
         cout<<"\n------------------------\n";
